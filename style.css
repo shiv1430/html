@@ -464,6 +464,7 @@ nav a:hover {
   flex: 1;
   margin: 5px;
   text-align: center;
+  text-decoration: none;
 }
 
 .btn:hover {
@@ -572,6 +573,7 @@ footer {
   .btn {
       font-size: 14px;
       padding: 8px 12px;
+    text-decoration: none;
   }
 }
 
