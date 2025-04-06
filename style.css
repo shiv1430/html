@@ -379,6 +379,12 @@ footer {
   font-size: 15px;
 } */
 
+.first{
+  text-align: center;
+  color: white;
+  background-color: #003366;
+}
+
 /* Reset and General Styles */
 * {
   margin: 0;
