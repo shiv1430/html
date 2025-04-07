@@ -141,6 +141,11 @@ nav a:hover {
   object-fit: cover;
 }
 
+.hero p {
+  font-family: serif;
+  font-size: 40px;
+}
+
 .hero-content {
   position: absolute;
   top: 50%;
