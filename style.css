@@ -53,14 +53,14 @@ nav {
 }
 
 nav a {
-  color: #BBBBBB;
+  color:#8bd6f6;
   text-decoration: none;
   margin: 0 10px;
   font-size: 16px;
 }
 
 nav a:hover {
-  color:skyblue;
+  color:#BBBBBB;
 }
 
 /* Login Container */
