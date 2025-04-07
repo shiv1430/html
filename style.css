@@ -126,6 +126,7 @@ nav a:hover {
   display: flex;
   margin: 20px;
   padding: 10px 30px;
+  text-decoration: none;
 }
 
 /* Hero Section */
