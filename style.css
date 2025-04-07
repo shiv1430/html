@@ -1,3 +1,7 @@
+/*#0A043C
+  #03506F
+  #BBBBBB
+  #FFE3D8*/
 p{
   white-space: pre;
 }
@@ -84,15 +88,10 @@ nav a:hover {
   border-radius: 5px;
 }
 
-.login-container .btn-container {
-  display: flex;
-  justify-content: space-between;
-}
-
 .login-container .btn {
   background-color:#f2fafa;
   color:#0A043C;
-  padding: 10px 15px;
+  padding: 10px 25px;
   font-size: 15px;
   cursor: pointer;
   border: none;
@@ -123,6 +122,13 @@ nav a:hover {
 .btn:hover {
   background-color:#f2fafa;
   color:#0A043C;
+}
+
+.inside-city .btn {
+  text-align: left;
+  display: flex;
+  margin: 20px;
+  padding: 10px 30px;
 }
 
 /* Hero Section */
