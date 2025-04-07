@@ -1,12 +1,22 @@
+/*#0A043C
+  #03506F
+  #BBBBBB
+  #FFE3D8*/
 p{
   white-space: pre;
 }
 
 .first{
+  font-family: serif;
+  font-size: 25px;
   text-align: center;
   color: #f2fafa;
   background-color: #0A043C;
-  border-radius: 15px;
+  border-radius: 28px;
+  margin: 5px;
+  padding: 15px 15px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 2);
 }
 
 * {
@@ -67,7 +77,7 @@ nav a:hover {
   padding: 20px;
   background-color: #0A043C;
   border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 2);
   text-align: center;
   display: flex;
   flex-direction: column;
