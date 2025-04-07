@@ -1,16 +1,12 @@
-/*#0A043C
-  #03506F
-  #BBBBBB
-  #FFE3D8*/
 p{
   white-space: pre;
 }
 
 .first{
   text-align: center;
-  color: #BBBBBB;
+  color: #f2fafa;
   background-color: #0A043C;
-   border-radius: 15px;
+  border-radius: 15px;
 }
 
 * {
@@ -23,7 +19,7 @@ p{
 html, body {
   height: 100%;
   width: 100%;
-  background-color: #BBBBBB;
+  background-color: #f2fafa;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,7 +34,7 @@ header p {
 header {
   width: 100%;
   background-color: #0A043C;
-  color: #BBBBBB;
+  color: #f2fafa;
   padding: 15px 20px;
   text-align: center;
 }
@@ -61,7 +57,7 @@ nav a {
 }
 
 nav a:hover {
-  color:#BBBBBB;
+  color:#f2fafa;
 }
 
 /* Login Container */
@@ -77,14 +73,14 @@ nav a:hover {
   flex-direction: column;
   gap: 15px;
   margin-top: 10vh;
-  color:#BBBBBB;
+  color:#f2fafa;
 }
 
 .login-container input {
   width: 100%;
   padding: 10px;
   margin-top: 5px;
-  border: 1px solid #BBBBBB;
+  border: 1px solid #f2fafa;
   border-radius: 5px;
 }
 
@@ -94,7 +90,7 @@ nav a:hover {
 }
 
 .login-container .btn {
-  background-color:#BBBBBB;
+  background-color:#f2fafa;
   color:#0A043C;
   padding: 10px 15px;
   font-size: 15px;
@@ -108,12 +104,12 @@ nav a:hover {
 
 .login-container .btn:hover {
   background-color:#0A043C;
-  color:#BBBBBB;
+  color:#f2fafa;
 }
 
 .btn {
   background-color:#0A043C;
-  color:#BBBBBB;
+  color:#f2fafa;
   padding: 10px 15px;
   font-size: 15px;
   cursor: pointer;
@@ -125,7 +121,7 @@ nav a:hover {
 }
 
 .btn:hover {
-  background-color:#BBBBBB;
+  background-color:#f2fafa;
   color:#0A043C;
 }
 
@@ -153,12 +149,30 @@ nav a:hover {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color:#BBBBBB;
+  color:#f2fafa;
 }
 
 .hero-content h2 {
   font-size: 32px;
   margin-bottom: 10px;
+}
+
+.hero .btn {
+  background-color:#f2fafa;
+  color:#0A043C;
+  padding: 10px 15px;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  flex: 1;
+  margin: 5px;
+  text-align: center;
+}
+
+.hero .btn:hover{
+  color:#f2fafa;
+  background-color:#0A043C;
 }
 
 /* City and Hotel Grid */
@@ -172,7 +186,7 @@ nav a:hover {
 }
 
 .city-card, .hotel-card {
-  background-color:#BBBBBB;
+  background-color:#f2fafa;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -211,7 +225,7 @@ nav a:hover {
 /* Footer */
 footer {
   background-color: #0A043C;
-  color:#BBBBBB;
+  color:#f2fafa;
   text-align: center;
   padding: 10px;
   margin-top: auto;
