@@ -95,6 +95,7 @@ nav a:hover {
   flex: 1;
   margin: 5px;
   text-align: center;
+  text-decoration: none;
 }
 
 .login-container .btn:hover {
