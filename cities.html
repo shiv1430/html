@@ -1,311 +1,234 @@
-p{
-  white-space: pre;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-.first{
-  font-family: serif;
-  font-size: 25px;
-  text-align: center;
-  color: #f2fafa;
-  background-color: #0A043C;
-  border-radius: 28px;
-  margin: 5px;
-  padding: 15px 15px;
-  text-align: center;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 2);
-}
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Select Your City - Hotel Hunting</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
-}
+<body>
+  <header>
+    <h1>Select Your City</h1>
+    <p>Explore luxurious hotels in top destinations of India.</p>
+  </header><br><br>
 
-html, body {
-  height: 100%;
-  width: 100%;
-  background-color: #f2fafa;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  <form class="first" method="post">
+    <label for="place">Search :</label>
+    <input type="text" name="searchlist" id="place" list="list-of-place" size="80" placeholder="Search city" >
+    <datalist id="list-of-place">
+        <option value="Manali"></option>
+        <option value="Shimla"></option>
+        <option value="Kerala"></option>
+        <option value="Leh-ladakh"></option>
+        <option value="Mahabaleshwar"></option>
+        <option value="Goa"></option>
+        <option value="Munnar"></option>
+        <option value="Alleppey"></option>
+        <option value="Ooty"></option>
+        <option value="Banglore"></option>
+        <option value="Mount Abu"></option>
+        <option value="Udaipur"></option>
+        <option value="Jaipur"></option>
+        <option value="Darjeeling"></option>
+        <option value="Rishikesh"></option>
+        <option value="Agra"></option>
+        <option value="Delhi"></option>
+        <option value="Mumbai"></option>
+        <option value="Kashmir"></option>
+        <option value="Nainital"></option>
+        <option value="Kolkata"></option>
+        <option value="Mussoorie"></option>
+        <option value="Chennai"></option>
+        <option value="Diu"></option>
+        <option value="Maunt-Abu"></option>
+        <option value="Sikkim"></option>
+    </datalist>
+    </select>
+</form><br><br>
 
-header p {
-  font-size: small;
-  font-family: monospace;
-}
+  <section class="city-container">
+    <div class="city-card">
+      <a href="mumbai.html">
+        <img src="mumbai.jpg" alt="Mumbai" />
+        <h3>Mumbai</h3>
+      </a>
+    </div>
+  
+    <div class="city-card">
+      <a href="delhi.html">
+        <img src="delhi.jpg" alt="Delhi" />
+        <h3>Delhi</h3>
+      </a>
+    </div>
+  
+    <div class="city-card">
+      <a href="kerala.html">
+        <img src="kerala.png" alt="Kerala" />
+        <h3>Kerala</h3>
+      </a>
+    </div>
 
-/* Header */
-header {
-  width: 100%;
-  background-color: #0A043C;
-  color: #f2fafa;
-  padding: 15px 20px;
-  text-align: center;
-}
+    <div class="city-card">
+      <a href="shimla.html">
+        <img src="shimla.png" alt="shimla" />
+        <h3>Shimla</h3>
+      </a>
+    </div>
 
-header h1 {
-  font-family: serif;
-  margin: 0;
-  font-size: 40px;
-}
+    <div class="city-card">
+      <a href="jaipur.html">
+        <img src="jaipur.jpg" alt="Jaipur" />
+        <h3>Jaipur</h3>
+      </a>
+    </div>
+  
+    <div class="city-card">
+      <a href="udaipur.html">
+        <img src="udaipur.jpg" alt="Udaipur" />
+        <h3>Udaipur</h3>
+      </a>
+    </div>
+  
+    <div class="city-card">
+      <a href="goa.html">
+        <img src="goa.avif" alt="Goa" />
+        <h3>Goa</h3>
+      </a>
+    </div>
+  
+    <div class="city-card">
+      <a href="munnar.html">
+        <img src="munnar.webp" alt="Munnar" />
+        <h3>Munnar</h3>
+      </a>
+    </div>
+  
+    <div class="city-card">
+      <a href="alleppey.html">
+        <img src="alleppey.jpg" alt="Alleppey" />
+        <h3>Alleppey</h3>
+      </a>
+    </div>
+  
+    <div class="city-card">
+      <a href="bangalore.html">
+        <img src="bangalore.jpg" alt="Bangalore" />
+        <h3>Bangalore</h3>
+      </a>
+    </div>
+  
+    <div class="city-card">
+      <a href="chennai.html">
+        <img src="chennai.jpg" alt="Chennai" />
+        <h3>Chennai</h3>
+      </a>
+    </div>
+  
+    <div class="city-card">
+      <a href="kolkata.html">
+        <img src="kolkata.avif" alt="Kolkata" />
+        <h3>Kolkata</h3>
+      </a>
+    </div>
+  
+    <div class="city-card">
+      <a href="agra.html">
+        <img src="agra.jpg" alt="Agra" />
+        <h3>Agra</h3>
+      </a>
+    </div>
 
-nav {
-  margin-top: 10px;
-}
+    <div class="city-card">
+      <a href="Manali.html">
+        <img src="Manali.jpg" alt="Manali" />
+        <h3>Manali</h3>
+      </a>
+    </div>
 
-nav a {
-  color:#8bd6f6;
-  text-decoration: none;
-  margin: 0 10px;
-  font-size: 16px;
-}
+    <div class="city-card">
+      <a href="Leh-ladakh.html">
+        <img src="Leh-ladakh.jpg" alt="Leh-ladakh" />
+        <h3>Leh-ladakh</h3>
+      </a>
+    </div>
 
-nav a:hover {
-  color:#f2fafa;
-}
+    <div class="city-card">
+      <a href="Mahabaleshwar.html">
+        <img src="Mahabaleshwar.webp" alt="Mahabaleshwar" />
+        <h3>Mahabaleshwar</h3>
+      </a>
+    </div>
 
-/* Login Container */
-.login-container {
-  width: 90%;
-  max-width: 350px;
-  padding: 20px;
-  background-color: #0A043C;
-  border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 2);
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  margin-top: 10vh;
-  color:#f2fafa;
-}
+    <div class="city-card">
+      <a href="Ooty.html">
+        <img src="Ooty.jpg" alt="Ooty" />
+        <h3>Ooty</h3>
+      </a>
+    </div>
 
-.login-container input {
-  width: 100%;
-  padding: 10px;
-  margin-top: 5px;
-  border: 1px solid #f2fafa;
-  border-radius: 5px;
-}
+    <div class="city-card">
+      <a href="Darjeeling.html">
+        <img src="Darjeeling.jpg" alt="Darjeeling" />
+        <h3>Darjeeling</h3>
+      </a>
+    </div>
 
-.login-container .btn {
-  background-color:#f2fafa;
-  color:#0A043C;
-  padding: 10px 25px;
-  font-size: 15px;
-  cursor: pointer;
-  border: none;
-  border-radius: 5px;
-  flex: 1;
-  margin: 5px;
-  text-align: center;
-  text-decoration: none;
-}
+    <div class="city-card">
+      <a href="Rishikesh.html">
+        <img src="Rishikesh.jpg" alt="Rishikesh" />
+        <h3>Rishikesh</h3>
+      </a>
+    </div>
 
-.login-container .btn:hover {
-  background-color:#0A043C;
-  color:#f2fafa;
-}
+    <div class="city-card">
+      <a href="Kashmir.html">
+        <img src="Kashmir.jpg" alt="Kashmir" />
+        <h3>Kashmir</h3>
+      </a>
+    </div>
 
-.btn {
-  background-color:#0A043C;
-  color:#f2fafa;
-  padding: 10px 15px;
-  font-size: 15px;
-  cursor: pointer;
-  border: none;
-  border-radius: 5px;
-  flex: 1;
-  margin: 5px;
-  text-align: center;
-}
+    <div class="city-card">
+      <a href="Mussoorie.html">
+        <img src="Mussoorie.png" alt="Mussoorie" />
+        <h3>Mussoorie</h3>
+      </a>
+    </div>
 
-.btn:hover {
-  background-color:#f2fafa;
-  color:#0A043C;
-}
+    <div class="city-card">
+      <a href="Diu.html">
+        <img src="Diu.jpg" alt="Diu" />
+        <h3>Diu</h3>
+      </a>
+    </div>
 
-.sign-in-container {
-  width: 90%;
-  padding: 20px;
-  background-color: #0A043C;
-  border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 2);
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  margin-top: 10vh;
-  color:#f2fafa;
-}
+        <div class="city-card">
+      <a href="nainital.html">
+        <img src="nainital.png" alt="Nainital" />
+        <h3>Nainital</h3>
+      </a>
+    </div>  
 
-.sign-in-container .btn {
-  color: #0A043C;
-  background-color:#f2fafa;
-  padding: 10px 25px;
-  font-size: 15px;
-  cursor: pointer;
-  border: none;
-  border-radius: 5px;
-  flex: 1;
-  margin: 5px;
-  text-align: center;
-}
+    <div class="city-card">
+      <a href="maunt-abu.html">
+        <img src="maunt-abu.png" alt="Maunt-abu" />
+        <h3>Maunt-Abu</h3>
+      </a>
+    </div>
 
-.sign-in-container .btn:hover {
-  background-color: #0A043C;
-  color:#f2fafa;
-}
+      <div class="city-card">
+      <a href="sikkim.html">
+        <img src="sikkim.png" alt="Sikkim" />
+        <h3>Sikkim</h3>
+      </a>
+    </div>
 
-.inside-city .btn {
-  text-align: left;
-  display: flex;
-  margin: 20px;
-  padding: 10px 30px;
-  text-decoration: none;
-}
+  </section>
 
-/* Hero Section */
-.hero {
-  position: relative;
-  width: 100%;
-  height: 400px;
-}
+  <footer>
+    <p>&copy; 2025 Hotel Hunting. All Rights Reserved.</p>
+  </footer>
+</body>
 
-.hero img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.hero p {
-  font-family: serif;
-  font-size: 40px;
-}
-
-.hero-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color:#f2fafa;
-}
-
-.hero-content h2 {
-  font-size: 32px;
-  margin-bottom: 10px;
-}
-
-.hero .btn {
-  background-color:#f2fafa;
-  color:#0A043C;
-  padding: 10px 15px;
-  font-size: 15px;
-  cursor: pointer;
-  border: none;
-  border-radius: 5px;
-  flex: 1;
-  margin: 5px;
-  text-align: center;
-  text-decoration: none;
-}
-
-.hero .btn:hover{
-  color:#f2fafa;
-  background-color:#0A043C;
-}
-
-/* City and Hotel Grid */
-.city-container, .hotel-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  background-color: #0A043C;
-  gap: 20px;
-  padding: 20px;
-  width: 100%;
-}
-
-.city-card, .hotel-card {
-  background-color:#f2fafa;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  transition: transform 0.3s ease;
-  padding: 15px;
-}
-
-.city-card:hover, .hotel-card:hover {
-  transform: translateY(-5px);
-}
-
-.city-card img, .hotel-card img {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-}
-
-.city-card h3, .hotel-card h3 {
-  margin-top: 10px;
-  color: #0A043C;
-}
-
-.city-card p, .hotel-card p {
-  margin: 5px 0;
-  color: #333;
-  font-size: 16px;
-}
-
-/* Help Page */
-.help-content p {
-  font-size: 15px;
-  padding: 20px;
-}
-
-/* Footer */
-footer {
-  background-color: #0A043C;
-  color:#f2fafa;
-  text-align: center;
-  padding: 10px;
-  margin-top: auto;
-  width: 100%;
-}
-
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-  .login-container {
-      width: 95%;
-      margin-top: 5vh;
-  }
-
-  .hero {
-      height: 300px;
-  }
-
-  .hero-content h2 {
-      font-size: 24px;
-  }
-
-  .btn {
-      font-size: 14px;
-      padding: 8px 12px;
-      text-decoration: none;
-  }
-}
-
-@media (max-width: 480px) {
-  .hero {
-      height: 250px;
-  }
-
-  .hero-content h2 {
-      font-size: 20px;
-  }
-
-  .city-container, .hotel-container {
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  }
-}
+</html>
