@@ -1,20 +1,4 @@
-p{
-  white-space: pre;
-}
-
-.first{
-  font-family: serif;
-  font-size: 25px;
-  text-align: center;
-  color: #f2fafa;
-  background-color: #0A043C;
-  border-radius: 20px;
-  margin: 5px;
-  padding: 15px 15px;
-  text-align: center;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 2);
-}
-
+/* Reset and General Styles */
 * {
   margin: 0;
   padding: 0;
@@ -25,22 +9,34 @@ p{
 html, body {
   height: 100%;
   width: 100%;
-  background-color: #f2fafa;
+  background-color: #517788;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-header p {
-  font-size: small;
-  font-family: monospace;
+/* Paragraph and Highlight Text */
+p {
+  white-space: pre;
+}
+
+.first {
+  font-family: serif;
+  font-size: 25px;
+  text-align: center;
+  color: #333;
+  background-color: #d3eaf2;
+  border-radius: 28px;
+  margin: 5px;
+  padding: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 /* Header */
 header {
   width: 100%;
-  background-color: #0A043C;
-  color: #f2fafa;
+  background-color: #d3eaf2;
+  color: #333;
   padding: 15px 20px;
   text-align: center;
 }
@@ -51,120 +47,85 @@ header h1 {
   font-size: 40px;
 }
 
+header p {
+  font-size: small;
+  font-family: monospace;
+}
+
 nav {
   margin-top: 10px;
 }
 
 nav a {
-  color:#8bd6f6;
+  color: #1080d0;
   text-decoration: none;
   margin: 0 10px;
   font-size: 16px;
 }
 
 nav a:hover {
-  color:#f2fafa;
+  color: #555;
 }
 
-/* Login Container */
-.login-container {
-  width: 90%;
-  max-width: 350px;
-  padding: 20px;
-  background-color: #0A043C;
-  border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 2);
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  margin-top: 10vh;
-  color:#f2fafa;
-}
-
-.login-container input {
-  width: 100%;
-  padding: 10px;
-  margin-top: 5px;
-  border: 1px solid #f2fafa;
-  border-radius: 5px;
-}
-
-.login-container .btn {
-  background-color:#f2fafa;
-  color:#0A043C;
-  padding: 10px 25px;
-  font-size: 15px;
-  cursor: pointer;
-  border: none;
-  border-radius: 5px;
-  flex: 1;
-  margin: 5px;
-  text-align: center;
-  text-decoration: none;
-}
-
-.login-container .btn:hover {
-  background-color:#0A043C;
-  color:#f2fafa;
-}
-
+/* Button Common Style */
 .btn {
-  background-color:#0A043C;
-  color:#f2fafa;
+  background-color: #1080d0;
+  color: #fff;
   padding: 10px 15px;
   font-size: 15px;
   cursor: pointer;
   border: none;
   border-radius: 5px;
-  flex: 1;
   margin: 5px;
   text-align: center;
+  text-decoration: none;
+  flex: 1;
 }
 
 .btn:hover {
-  background-color:#f2fafa;
-  color:#0A043C;
+  background-color: #fff;
+  color: #1080d0;
+  border: 1px solid #1080d0;
 }
 
-.sign-in-container {
+/* Login Container */
+.login-container, .sign-in-container {
   width: 90%;
-  max-width: 500px;
+  max-width: 400px;
   padding: 20px;
-  background-color: #0A043C;
+  background-color: #e0f1f8;
   border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 2);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
   display: flex;
   flex-direction: column;
   gap: 15px;
   margin-top: 10vh;
-  color:#f2fafa;
+  color: #333;
 }
 
-.sign-in-container .btn {
-  color: #0A043C;
-  background-color:#f2fafa;
-  padding: 10px 25px;
-  font-size: 15px;
-  cursor: pointer;
-  border: none;
+.login-container input,
+.sign-in-container input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #a0cde0;
   border-radius: 5px;
-  flex: 1;
-  margin: 5px;
-  text-align: center;
+  background-color: #7d888d;
+  color: #333;
 }
 
+.login-container .btn,
+.sign-in-container .btn {
+  background-color: #1080d0;
+  color: #fff;
+}
+
+.login-container .btn:hover,
 .sign-in-container .btn:hover {
-  background-color: #0A043C;
-  color:#f2fafa;
-}
-
-.inside-city .btn {
-  text-align: left;
-  display: flex;
-  margin: 20px;
-  padding: 10px 30px;
-  text-decoration: none;
+  background-color: #fff;
+  color: #1080d0;
+  border: 1px solid #1080d0;
 }
 
 /* Hero Section */
@@ -180,18 +141,16 @@ nav a:hover {
   object-fit: cover;
 }
 
-.hero p {
-  font-family: serif;
-  font-size: 40px;
-}
-
 .hero-content {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color:#f2fafa;
+  color: #fff;
+  background-color: rgba(0,0,0,0.4);
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .hero-content h2 {
@@ -199,37 +158,33 @@ nav a:hover {
   margin-bottom: 10px;
 }
 
-.hero .btn {
-  background-color:#f2fafa;
-  color:#0A043C;
-  padding: 10px 15px;
-  font-size: 15px;
-  cursor: pointer;
-  border: none;
-  border-radius: 5px;
-  flex: 1;
-  margin: 5px;
-  text-align: center;
-  text-decoration: none;
+.hero-content p {
+  font-family: serif;
+  font-size: 40px;
 }
 
-.hero .btn:hover{
-  color:#f2fafa;
-  background-color:#0A043C;
+.hero .btn {
+  background-color: #fff;
+  color: #1080d0;
+}
+
+.hero .btn:hover {
+  color: #fff;
+  background-color: #1080d0;
 }
 
 /* City and Hotel Grid */
 .city-container, .hotel-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  background-color: #0A043C;
+  background-color: #d3eaf2;
   gap: 20px;
   padding: 20px;
   width: 100%;
 }
 
 .city-card, .hotel-card {
-  background-color:#f2fafa;
+  background-color: #fff;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -243,19 +198,19 @@ nav a:hover {
 }
 
 .city-card img, .hotel-card img {
-  width: 200px;
-  height: 200px;
+  width: 100%;
+  height: 180px;
   object-fit: cover;
 }
 
 .city-card h3, .hotel-card h3 {
   margin-top: 10px;
-  color: #0A043C;
+  color: #1080d0;
 }
 
 .city-card p, .hotel-card p {
   margin: 5px 0;
-  color: #333;
+  color: #555;
   font-size: 16px;
 }
 
@@ -267,16 +222,23 @@ nav a:hover {
 
 /* Footer */
 footer {
-  background-color: #f2fafa;
-  color:#0A043C;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 2);
+  background-color: #d3eaf2;
+  color: #333;
   text-align: center;
   padding: 10px;
   margin-top: auto;
   width: 100%;
 }
 
-/* Responsive Adjustments */
+/* Inside City Button */
+.inside-city .btn {
+  text-align: left;
+  display: flex;
+  margin: 20px;
+  padding: 10px 30px;
+}
+
+/* Responsive Design */
 @media (max-width: 768px) {
   .login-container {
       width: 95%;
@@ -294,7 +256,6 @@ footer {
   .btn {
       font-size: 14px;
       padding: 8px 12px;
-      text-decoration: none;
   }
 }
 
@@ -310,4 +271,45 @@ footer {
   .city-container, .hotel-container {
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
+}
+
+/* Search bar container */
+.first {
+  font-family: serif;
+  font-size: 22px;
+  text-align: center;
+  color: #333;
+  background-color: #d3eaf2;
+  border-radius: 28px;
+  /* margin: 20px auto; */
+  /* padding: 20px; */
+  width: 100%;
+  max-width: 1000px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Input field styling */
+.first input[type="text"] {
+  width: 80%;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #517788;
+  border-radius: 10px;
+  background-color: #d3eaf2;
+  color: #333;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+/* Input focus effect */
+.first input[type="text"]:focus {
+  border-color: #1080d0;
+}
+
+/* Style datalist options on supported browsers (fallback look) */
+input::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+#place::placeholder {
+  color: #000609;
 }
