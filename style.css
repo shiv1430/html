@@ -203,7 +203,7 @@ nav a:hover {
   object-fit: cover;
 }
 
-.city-card .hotel-card img {
+.hotel-card img {
   width: 300px;
   height: 300px;
   object-fit: cover;
