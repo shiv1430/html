@@ -89,7 +89,7 @@ nav a:hover {
 }
 
 /* Login Container */
-.login-container, .sign-in-container {
+.login-container {
   width: 90%;
   max-width: 400px;
   padding: 20px;
@@ -106,7 +106,17 @@ nav a:hover {
 
 .sign-in-container {
   width: 90%;
-  max-width: 500px;
+  max-width: 530px;
+  padding: 20px;
+  background-color: #e0f1f8;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 10vh;
+  color: #333;
 }
 
 .login-container input,
