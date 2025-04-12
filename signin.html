@@ -6,6 +6,18 @@
     <title>Sign-in page</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
+<style>
+    body{
+        background-image: url('hotel1.webp');
+        background-size: cover;          
+        background-repeat: no-repeat; 
+        background-position: center;      
+        background-attachment: fixed;     
+        font-family: sans-serif;
+    }
+</style>
+
 <body>
     <header>
         <h1>Hotel Hunting</h1>
@@ -16,8 +28,8 @@
     </header><br>
 
     <section class="sign-in-container">
-        <h2 style="text-align: center; font-family: Georgia, 'Times New Roman', Times, serif;">Enter Your Details</h2><br>
         <form action="cities.html" method="post">
+        <h2 style="text-align: center; font-family: Georgia, 'Times New Roman', Times, serif;">Enter Your Details</h2><br>
             <label for="name">Full Name:</label>
             <input type="text" for="name" id="name" placeholder="Enter Your Full Name" size="50"><br><br>
 
@@ -61,17 +73,16 @@
             <input type="email" id="email" placeholder="Enter your Email" size="30"><br><br>
 
             <label for="cpassword">Create Password:</label>
-            <input type="cpassword" id="cpassword" placeholder="Create Password" size="30"><br><br>
+            <input type="password" id="cpassword" placeholder="Create Password" size="30"><br><br>
 
             <label for="rpassword">Retype Password:</label>
-            <input type="rpassword" id="rpassword" placeholder="Retype Password" size="30"><br><br>
+            <input type="password" id="rpassword" placeholder="Retype Password" size="30"><br><br>
             
             <button type="reset" value="reset" class="btn" >Reset</button>
             <button type="submit" value="submit" class="btn" >Submit</button>
 
         </form>
-    </section><br>
-
+    </section>
     <footer>
         <p>&copy; 2025 Hotel Hunting. All Rights Reserved.</p>
     </footer>
