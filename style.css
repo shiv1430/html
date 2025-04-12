@@ -130,7 +130,7 @@ nav a:hover {
   margin-top: 5px;
   border: 1px solid #a0cde0;
   border-radius: 5px;
-  background-color: #7d888d;
+  background-color: white;
   color: #333;
 }
 
@@ -329,7 +329,7 @@ footer {
   border: 2px solid #517788;
   border-radius: 10px;
   background-color: #d3eaf2;
-  color: #333;
+  color: black;
   outline: none;
   transition: border 0.3s ease;
 }
