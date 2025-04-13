@@ -7,7 +7,7 @@
 }
 
 html, body {
-  height: 130%;
+  height: 120%;
   width: 100%;
   background-color: #517788;
   display: flex;
@@ -72,6 +72,22 @@ nav a:hover {
   color: #555;
 }
 
+.profile {
+  display: flex;
+  align-items:center;
+  gap: 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  background: gray;   
+  margin-top:30px;         
+}
+
 /* Button Common Style */
 .btn {
   background-color: #1080d0;
@@ -87,10 +103,22 @@ nav a:hover {
   flex: 1;
 }
 
-.btn:hover {
+.btn:hover, .p_btn:hover {
   background-color: #fff;
   color: #1080d0;
   border: 1px solid #1080d0;
+}
+
+.p_btn{
+  background-color: #1080d0;
+  color: #fff;
+  display: inline-block;
+  width: 300px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
 /* Login Container */
