@@ -295,6 +295,9 @@ nav a:hover {
   margin: 5px 0;
   color: #555;
   font-size: 16px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
 }
 
 /* Help Page */
