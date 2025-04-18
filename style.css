@@ -7,7 +7,7 @@
 }
 
 html, body {
-  height: 120%;
+  height: 150%;
   width: 100%;
   background-color: #517788;
   display: flex;
@@ -117,9 +117,25 @@ nav a:hover {
   height: 40px;
   line-height: 40px;
   text-align: center;
-  text-decoration: none;
   cursor: pointer;
+  text-decoration: none;
   border-radius: 5px;
+}
+
+/* feedback */
+.feedback
+{
+  width: 90%;
+  max-width: 700px;
+  padding: 20px;
+  background-color: #e0f1f8;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 10vh auto;
+  color: #333;
 }
 
 /* Login Container */
@@ -158,7 +174,9 @@ nav a:hover {
 }
 
 .login-container input,
-.sign-in-container input {
+.sign-in-container input,
+.feedback input,
+.feedback textarea {
   width: 100%;
   padding: 10px;
   margin-top: 5px;
@@ -270,6 +288,7 @@ nav a:hover {
   padding: 15px;
   max-width: 500px;
   width: 100%;
+  margin: auto;
 }
 
 .city-card:hover, .hotel-card:hover {
@@ -304,7 +323,7 @@ nav a:hover {
 
 /* Help Page */
 .help-content p {
-  font-size: 15px;
+  font-size: 20px;
   padding: 20px;
 }
 
