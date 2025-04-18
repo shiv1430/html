@@ -83,8 +83,7 @@ nav a:hover {
 .profile img {
   width: 150px;
   height: 150px;
-  border-radius: 100%;
-  background: gray;   
+  border-radius: 100%;   
   margin-top:30px;         
 }
 
@@ -109,7 +108,7 @@ nav a:hover {
   border: 1px solid #1080d0;
 }
 
-.p_btn{
+.p_btn {
   background-color: #1080d0;
   color: #fff;
   display: inline-block;
